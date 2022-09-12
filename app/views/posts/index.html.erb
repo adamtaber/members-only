@@ -24,9 +24,9 @@
     <div class="author">
       <p>submitted by 
         <% if user_signed_in? %>
-          <%= post.user.email %>
+          <span class='author-username'><%= post.user.username %></span>
         <% else %>
-          anonymous
+          <span class='author-username'>anonymous</span>
         <% end %>
       </p>
     </div>

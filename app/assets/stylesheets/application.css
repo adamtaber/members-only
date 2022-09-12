@@ -100,12 +100,21 @@
  }
 
  .post-body {
+  font-size: 18px;
   margin: 15px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  height: 30px;
  }
 
  .author {
   margin-left: 15px;
   margin-top: 30px;
+ }
+
+ .author-username {
+  font-weight: 800;
  }
 
  .new-post-link {
