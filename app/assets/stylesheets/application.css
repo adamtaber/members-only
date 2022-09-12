@@ -13,3 +13,169 @@
  *= require_tree .
  *= require_self
  */
+* {
+  margin: 0;
+  padding: 0;
+  font-family:Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+ .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #6CB4EE;
+  color: white;
+  padding: 30px;
+ }
+
+ .weblogo {
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
+ }
+
+ .weblogo:hover {
+  color: lightgray;
+ }
+
+ .weblogo-link {
+  text-decoration: none;
+ }
+
+ .navlink {
+  border-style: none;
+  background-color: #6CB4EE;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+ }
+
+ .navlink:hover {
+  color: lightgray;
+ }
+
+ .links {
+  display: flex;
+  gap: 30px;
+ }
+
+ .body-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ }
+
+ .body-title {
+  font-size: 35px;
+  margin-top: 20px;
+ }
+
+ .post-box {
+  border-style: solid;
+  border-color: lightgrey;
+  border-radius: 10px;
+  margin: 20px;
+  width: 670px;
+  height: 150px;
+  font-size: 20px;
+ }
+
+ .post-title-box {
+  margin-top: 15px;
+ }
+
+ .post-title {
+  font-weight: 800;
+  text-decoration: none;
+  color: black;
+  margin: 15px;
+ }
+
+ .post-body {
+  margin: 15px;
+ }
+
+ .author {
+  margin-left: 15px;
+  margin-top: 30px;
+ }
+
+ .new-post-link {
+  text-decoration: none;
+  color: black;
+  background-color: lightgrey;
+  border-radius: 35px;
+  padding: 30px;
+  font-size: 20px;
+ }
+
+ .new-post-link:hover {
+  background-color: darkgrey;
+  color: white;
+ }
+
+ .footer {
+  background-color: lightgray;
+  color: black;
+  padding: 20px;
+  font-size: 15px;
+  text-align: center;
+ }
+
+ .new-form {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  border-style: solid;
+  border-color: lightgrey;
+  border-radius: 10px;
+  width: 500px;
+  height: 650px;
+  margin-top: 100px;
+ }
+
+ .new-title, .new-content {
+  font-size: 30px;
+  color: black;
+  margin-left: 20px;
+ }
+
+ .new-title {
+  margin-right: 12px;
+ }
+
+ .new-title-form {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 350px;
+ }
+
+ .new-content-form {
+  width: 350px;
+  height: 250px;
+  font-size: 20px;
+ }
+
+ .create-post-button {
+  margin: 20px;
+  width: 200px;
+  height: 60px;
+  font-size: 20px;
+  align-self: center;
+  border-radius: 10px;
+  border-style: none;
+ }
+
+ .create-post-button:hover {
+  background-color: darkgrey;
+ }
+ 
